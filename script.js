@@ -1,7 +1,7 @@
 // Константы
 const SHEET_ID = '1ETu3qsTX_pY6W0xtyRcEHzewi9MgHzm2-4kT0hnn4eI';
-const CLIENT_ID = '399222378656-metga7nra7tfu9usugtovvildhhg2l9q.apps.googleusercontent.com';
-const API_KEY = 'AIzaSyBD6-DJTUl9-lInaS4CkWBIYKDkAXzWlMQ';
+const CLIENT_ID = 'YOUR_CLIENT_ID.apps.googleusercontent.com'; // Будет заменено GitHub Actions
+const API_KEY = 'YOUR_API_KEY'; // Будет заменено GitHub Actions
 const DISCOVERY_DOCS = ["https://sheets.googleapis.com/$discovery/rest?version=v4", "https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"];
 const SCOPES = 'https://www.googleapis.com/auth/spreadsheets https://www.googleapis.com/auth/drive.file';
 let gapiInited = false;
